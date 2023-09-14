@@ -1,0 +1,52 @@
+.input-head {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.input-margin {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-field input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.input-field select {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+/* Radio Input */
+.input-field-radio {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 30px;
+}
+
+.input-box label {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.input-box input[type="radio"] {
+  margin-left: 0px;
+  width: 30px;
+  height: 15px;
+  accent-color: #088395;
+}
